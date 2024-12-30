@@ -1,4 +1,5 @@
 syntax on
+set t_Co=256
 set showcmd
 set softtabstop=4
 set shiftwidth=4
@@ -11,6 +12,7 @@ set ruler
 set showmode
 set wrap
 set linebreak
+inoremap ;; <ESC>
 
 filetype on 
 filetype indent on
