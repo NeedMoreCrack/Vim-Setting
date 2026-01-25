@@ -51,3 +51,6 @@ filetype indent on
 
 " 啟用基於文件類型的插件支持
 filetype plugin on     
+
+" 暗色背景
+color elflord
