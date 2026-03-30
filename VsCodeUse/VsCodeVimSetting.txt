@@ -1,10 +1,29 @@
-設定檔位置: C:\Users\你的帳號\AppData\Roaming\Code\User\settings.json
+Win:
 
-如果用的是 VSCode Insiders，則可能是：
+    設定檔位置: C:\Users\你的帳號\AppData\Roaming\Code\User\settings.json
 
-C:\Users\你的帳號\AppData\Roaming\Code - Insiders\User\settings.json
-	
-"vim.vimrc.enable": true,
-"vim.useSystemClipboard": true,
-"vim.hlsearch": true,
-"vim.incsearch": true
+    如果用的是 VSCode Insiders，則可能是：
+
+    C:\Users\你的帳號\AppData\Roaming\Code - Insiders\User\settings.json
+	    
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true
+
+---
+
+Mac:
+
+    ~/Library/Application Support/Code/User/settings.json
+
+    如果你用的是 VSCode Insiders，通常是：
+
+    ~/Library/Application Support/Code - Insiders/User/settings.json
+
+---
+
+在 VSCode 裡最快的打開方式是：
+
+Cmd + Shift + P
+輸入 Preferences: Open User Settings (JSON)
