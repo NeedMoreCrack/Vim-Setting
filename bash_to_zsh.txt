@@ -1,0 +1,16 @@
+# 裝 zsh + autosuggestions 歷史命令自動提示功能
+sudo apt update
+sudo apt install zsh zsh-autosuggestions -y
+
+# 然後編輯 zsh 設定檔
+vim ~/.zshrc
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# 讓設定生效
+source ~/.zshrc
+
+# 預設 shell 改成 zsh
+chsh -s $(which zsh)
+
+# zsh 裡設定成類似 bash 的綠色
+PROMPT='%F{green}%n@%m%f:%F{blue}%~%f%# '
